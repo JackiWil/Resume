@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root {
+    interpolate-size: allow-keywords;
+}
+
+body {
+    background-color: rgb(14, 11, 67);
+    
+}
+
+body.is-transition {
+    background-color: rgb(14, 11, 67);
+    animation: fade-in 2s;
+    opacity: 0;
+    transform: translateY(50vh);
+    animation-fill-mode: forwards;
+    
+}
+#my-name {
+    font-family: RocknRoll+One, sans-serif;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+}
+
+#ed-list .quals{
+    color:#0da4ca;
+    margin-left: 3rem;
+}
+
+#info-1 {
+
+    background-image: linear-gradient(rgb(14, 11, 67), rgb(56, 48, 176));
+    border-radius: 5px;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
+
+}
+
+.bg-color-personal-info {
+    background-color: #d8e6e1;
+}
+
+.bg-color-work-history {
+    background-color: #2543af;
+}
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #0767d4;
+}
+
+.ui-menu-color-resume {
+    background-color: #1034a8;
+}
+
+.ui-menu-color-contact {
+    background-color: #3c45c8;
+}
+
+.ui-menu-color-download {
+    background-color: #062a3c;
+}
+
+a {
+    color: #03190b5a;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+
+
+header {
+    margin: 10;
+    background-image: linear-gradient(rgb(241, 241, 247), rgb(14, 11, 67));
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    z-index: 999;
+    text-align: center;
+}
+
+.sub-1 {
+    text-shadow:
+        1px 1px 2px rgb(187, 197, 204),
+        0 0 1em rgb(226, 226, 240),
+        0 0 0.2em rgb(18, 137, 192);
+    color: rgb(239, 229, 229);
+}
+
+
+summary::marker {
+    font-size: 1em;
+    color: hsl(263, 10%, 69%);
+}
+
+details {
+    background: hsla(261, 55%, 49%, 0.126);
+    /* border: 1px solid hsl(0 0% 12%); */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.resume-h{
+    margin-left: 2rem;
+    color: #0da4ca;
+}
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(43, 9, 199, 0.2);
+    height: 120px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: rgb(14, 11, 67)2;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+    /* position:-webkit-sticky; position:sticky; */
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #530676;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 75px;
+    height: 32px;
+    padding: 50px 0;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+}
+
+.social-links li a i:hover {
+    background: #090013;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.details-1 {
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+}
+
+#linke-1 {
+    text-decoration: none;
+    font-size: 2rem;
+    border: none;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+}
+
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #090970;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* .personal-info-item {
+        margin-bottom: 20px;
+        display: block;
+        clear: both;
+    }
+
+    .personal-info-item .key,
+    .personal-info-item .value {
+        padding-right: 8px;
+        display: inline-block;
+    }
+
+    .personal-info-item .key p,
+    .personal-info-item .value p {
+        margin: 0;
+    }
+
+    .personal-info-item .key {
+        width: 30%;
+        margin-right: 21px;
+        padding-top: 2px;
+        vertical-align: top;
+    }
+
+    .personal-info-item .key p {
+        font-weight: 700;
+    }
+
+    .personal-info-item .value {
+        position: relative;
+        width: 60%;
+    }
+
+    .progress {
+        position: relative;
+        height: 25px;
+        margin-bottom: 4px;
+    }
+
+    .progress-type {
+        position: absolute;
+        left: 0px;
+        font-weight: 400;
+        padding: 3px 30px 2px 10px;
+        color: #fafafa;
+        background-color: rgba(25, 25, 25, 0.2);
+    }
+
+    .progress-section {
+        margin: 40px 20px;
+    } */
+.heading2 {
+    color: #d8e6e1;
+    padding: 2rem;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em rgb(200, 28, 231),
+        0 0 0.2em blue;
+    color: white;
+}
+
+.resume-f {
+    color: #fbf3f3;
+    padding: 2rem;
+}
+
+#resume-footer {
+
+    text-align: center;
+
+}
+
+#ed-list {
+    color: #f4efef;
+    list-style-type: none;
+}
+
+.card {
+    position: sticky;
+    z-index: 999;
+    /* background-color: #3d43e0; */
+    color: #f4f3f3;
+    background-image: linear-gradient(rgb(14, 11, 67), rgb(56, 48, 176));
+
+}
+
+.col mb-4 {
+    margin: auto;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(50vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);  
+    }
+    
+
+
+}
+
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
